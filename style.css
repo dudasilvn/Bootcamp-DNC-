@@ -1,0 +1,50 @@
+*{
+    font-family: inter;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#menuPrincipal{
+    background-color: #303030;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #BABABA;
+    
+    
+}
+
+#menuPrincipal div a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+
+#menuPrincipal a:hover{
+    color: #CCCCCC;
+}
+
+#menu{
+    display: flex;
+    width: 45%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5%;
+}
+
+#menuPrincipal button{
+    margin-right: 5%;
+    background-color: #0C70F2;
+    border: 0;
+    height: 40px;
+    width: 80px;
+    font-size: 20px;
+    color: white;
+    box-shadow: 3px 2px 4px 0px #0C70F240;
+}
