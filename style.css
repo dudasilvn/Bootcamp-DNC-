@@ -5,6 +5,9 @@
 body{
     margin: 0;
     padding: 0;
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 19.91%, rgba(12, 112, 242, 0) 24.84%),#303030;
+    background-repeat: no-repeat;
+    
 }
 
 #menuPrincipal{
@@ -47,4 +50,9 @@ body{
     font-size: 20px;
     color: white;
     box-shadow: 3px 2px 4px 0px #0C70F240;
+    cursor: pointer;
+}
+
+#informacional{
+    height: 1200px;
 }
