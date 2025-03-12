@@ -93,8 +93,149 @@ header h2{
     margin-bottom: 100px;
 }
 
-header .negrito{
+.negrito{
     background-color: black;
     font-weight: bold;
     padding: 5px;
+    border: 5px;
+}
+
+
+form{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    width: 600px;
+}
+
+.form-grupo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form input{
+    border-radius: 10px;
+    height: 35px;
+    border: 0p;
+    font-size: 15px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+form label{
+    margin: 10px 0px 10px 0px;
+
+
+}
+
+form input::placeholder{
+    color: rgba(57, 57, 57, 0.5);
+}
+
+.check-box-itens label{
+    font-size: 25px;
+
+}
+
+.check-box-itens{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input[type="checkbox"]{
+    transform: scale(1.7);
+}
+
+input[type="submit"]{
+    background-color: rgba(12, 112, 242, 0.9);
+    width: 100%;
+    height: 56px;
+    font-size: 32px;
+    color: white;
+    margin-top: 100px;
+    box-shadow:0px 6px 4px 0px #0C70F240;
+    cursor: pointer;
+
+}
+
+footer{
+    width: 100%;
+    background-color: var(--azul-dnc);
+    color: white;
+}
+
+footer .linha1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h5{
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 15px;
+}
+
+footer ul{
+    color: white;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+}
+
+footer ul li{
+    text-align: center;
+    color: white;
+    margin: 20px 0px 20px 0px;
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+footer nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#endereco{
+    font-size: 15px;
+    color: white;
+}
+
+footer ul li a:hover{
+    color: var(--cinza-hover);
+}
+
+footer .linha2 a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+footer .linha2{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    height: 35px;
+    padding: 10px;
+
+}
+
+footer .linha2 a:hover{
+    color: var(--cinza-hover);
+}
+
+footer .linha2 a:first-child{
+    border-right: 3px solid white;
 }
